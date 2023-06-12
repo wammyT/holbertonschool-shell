@@ -1,0 +1,4 @@
+#!/usr/bin/env bash
+#shellcheck disable=SC2009
+#bash script that displays a lis of currently running processors
+ps -auxf --forest | grep bash
