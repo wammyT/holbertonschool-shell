@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-# bash script displaying current running processors
+#finds processors with bash
 #shellcheck disable=SC2009
-pgrep bash -1
+pgrep -1 bash
