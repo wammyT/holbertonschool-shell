@@ -1,0 +1,9 @@
+#!/usr/bin/env bash
+# script that displays to infinity and beyond
+#shellcheck disabled=SC2009
+
+while :
+do
+	echo "to infinity and beyond"
+	sleep 2
+done
